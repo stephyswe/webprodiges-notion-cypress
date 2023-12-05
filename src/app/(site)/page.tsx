@@ -116,7 +116,7 @@ const HomePage = () => {
         >
           {[...Array(2)].map((arr) => (
             <div
-              key={arr}
+              key={randomUUID()}
               className="flex
                 flex-nowrap
                 animate-slide
