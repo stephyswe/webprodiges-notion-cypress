@@ -16,12 +16,26 @@ npm i drizzle-kit prettier -D
 
 create .env & add to .gitignore
 
-> Supabase
+# Supabase Datase Setup
 
 https://supabase.com/ - login - new project - webprodigies-cypress
-- gen. & copy password to .env "PW: ..." - create new project - 
-- copy anon key to .env 
-- copy service_role to .env 
-- copy url to .env
+- copy database password to .env PW - create new project - 
+>.env
+
+DATABASE_URL=(Connection string + pw)
+NEXT_PUBLIC_SUPABASE_URL=(URL)
+NEXT_PUBLIC_SUPABASE_ANON_KEY=(anon_key)
+SERVICE_ROLE_KEY=(service_role
+PW=(password)
 
 # Setting Up Drizzle ORM
+
+> Package.json Get Scripts - https://github.com/webprodigies/webprodigies-cypress/blob/main/package.json
+> Tsconfig.json - "es6" in target
+
+npm run generate (create 0000_ in migrations/)
+npm run push (push to supbabase)
+npm run dev
+
+> Supabase - Table Editor - Workspaces
+
