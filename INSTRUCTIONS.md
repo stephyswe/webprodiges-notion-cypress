@@ -108,4 +108,18 @@ npx shadcn-ui@latest init
 √ Are you using React Server Components? yes
 √ Write configuration to components.json. Proceed? yes
 
+# How to import Figma colors into our app - Optional
+## (We're using shadcn theme colors. But here's how to do it!)
 
+> Goto Figma Design - UI System - "Plugins: Figma Tailwindcss" -
+> "Next" - "Pick base font-size: 16px" - "Next" - "Next" - 
+> add dark mode light mode > "tailwind.config.js" -> add after card
+
+# Light and Dark mode setup
+
+> shadcn website - "https://ui.shadcn.com/docs/dark-mode/next"
+
+npm install next-themes
+
+> "https://ui.shadcn.com/themes" - "Customize" - "Violet, 0.5, Dark" - "Copy Code"
+> replace "globals.css" 
