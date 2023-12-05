@@ -88,3 +88,6 @@ npm run generate
 npm run push 
 npm run pull
 "migrations/schema.ts" is updated
+
+# Setting Up Drizzle ORM (layout)
+
