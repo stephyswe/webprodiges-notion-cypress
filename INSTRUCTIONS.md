@@ -124,7 +124,13 @@ npm install next-themes
 > "https://ui.shadcn.com/themes" - "Customize" - "Violet, 0.5, Dark" - "Copy Code"
 > replace "globals.css" 
 
-# Landing Page
+# Landing Page: add first sections + title section
 
 npx shadcn-ui@latest add button
 npx shadcn-ui@latest add dropdown-menu
+
+# Landing Page: add testimonial section
+
+npx shadcn-ui@latest add avatar
+npx shadcn-ui@latest add card
+
