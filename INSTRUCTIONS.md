@@ -134,3 +134,15 @@ npx shadcn-ui@latest add dropdown-menu
 npx shadcn-ui@latest add avatar
 npx shadcn-ui@latest add card
 
+# Landing Page: add pricing plan
+
+...
+
+# Login & Signup Authentication With Supabase
+
+> https://supabase.com/docs/guides/auth/auth-helpers/nextjs
+
+npm install @supabase/auth-helpers-nextjs @supabase/supabase-js
+
+npx shadcn-ui@latest add form
+npx shadcn-ui@latest add input
