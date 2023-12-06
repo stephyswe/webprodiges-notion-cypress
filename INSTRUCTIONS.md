@@ -138,7 +138,7 @@ npx shadcn-ui@latest add card
 
 ...
 
-# Login & Signup Authentication With Supabase
+# Login & Signup Authentication With Supabase: Login
 
 > https://supabase.com/docs/guides/auth/auth-helpers/nextjs
 
@@ -146,3 +146,7 @@ npm install @supabase/auth-helpers-nextjs @supabase/supabase-js
 
 npx shadcn-ui@latest add form
 npx shadcn-ui@latest add input
+
+# Login & Signup Authentication With Supabase: Signup
+
+npx shadcn-ui@latest add alert
